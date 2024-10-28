@@ -193,7 +193,7 @@ Ensure that you are running the commands from the root of your supergraph.
 ```bash title="Create a Dockerfile for v3-engine."
 cat <<EOF >> Dockerfile
 FROM ghcr.io/hasura/v3-engine
-COPY ./build-data /md/
+COPY ./engine/build /md/
 EOF
 ```
 
